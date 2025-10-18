@@ -1,24 +1,26 @@
 public class MoveZeroesToEnd_Array {
     public static void main(String[] args) {
-        int[] a = {0,1,0,3,12};
+        int a [] = {0,1,0,3,12};
         int n = a.length;
+
+        int result[] = new int[n];
         int j = 0;
 
-        for (int i = 0; i<n; i++){
+        for(int i = 0; i<n; i++){
             if (a[i]!=0){
-                a[j]=a[i];
-                j++;
+                result[j++] = a[i];
             }
         }
 
         while (j<n){
-            a[j] = 0;
-            j++;
+            result[j++] = 0;
+
         }
 
-        for (int num : a){
-            System.out.println(num + " ");
+        for (int k : result){
+            System.out.print(k + " ");
         }
+
 
     }
 }
