@@ -1,3 +1,5 @@
+package array;
+
 public class Positive_Negative_Array {
     public static void main(String[] args) {
         int a[] = {3, 6, 5, -7, 0};

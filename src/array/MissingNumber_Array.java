@@ -1,3 +1,5 @@
+package array;
+
 public class MissingNumber_Array {
     public static void main(String[] args) {
         int a [] = {1,2,4,6,3,7,8};

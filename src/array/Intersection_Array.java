@@ -1,3 +1,5 @@
+package array;
+
 import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.Set;

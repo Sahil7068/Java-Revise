@@ -1,3 +1,5 @@
+package array;
+
 public class TwoSum_Indices_Array {
     public static void main(String[] args) {
         int a [] = {2,7,11,15,1,8};

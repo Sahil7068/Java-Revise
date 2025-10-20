@@ -1,3 +1,5 @@
+package array;
+
 public class Copy_Array {
     public static void main(String[] args) {
         int[] a = {3, 5, 6, 6};

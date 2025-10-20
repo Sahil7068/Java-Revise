@@ -1,3 +1,5 @@
+package array;
+
 public class MoveZeroesToEnd_Array {
     public static void main(String[] args) {
         int a [] = {0,1,0,3,12};

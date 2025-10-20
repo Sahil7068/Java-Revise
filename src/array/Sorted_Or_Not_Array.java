@@ -1,3 +1,5 @@
+package array;
+
 public class Sorted_Or_Not_Array {
     public static void main(String[] args) {
         int[] a = {3, 6, 5, 8, 0};
