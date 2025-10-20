@@ -3,7 +3,7 @@ package array;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-public class UniqurSum_Array {
+public class TwoSumUnique_Array {
     public static void main(String[] args) {
         int a [] = {1, 5, 7, -1, 5};
         int target = 6;
@@ -21,13 +21,16 @@ public class UniqurSum_Array {
                     String pair = first + " , " + second;
 
                     // add pair only if not already present
-                    if (s.add(pair)) {
-                        System.out.println("(" + pair + ")");                  }
+                    s.add(pair);
 
 
                 }
             }
 
+        }
+
+        for (String o : s){
+            System.out.println("(" + o + ")");
         }
     }
 }
