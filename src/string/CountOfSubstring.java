@@ -1,3 +1,5 @@
+package string;
+
 public class CountOfSubstring {
     public static void main(String[] args) {
         String str = "testertestertester";
