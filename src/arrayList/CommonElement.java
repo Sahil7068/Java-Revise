@@ -20,7 +20,7 @@ public class CommonElement {
 
 
         for (int k : c){
-            System.out.print(k + " ");
+            System.out.print(k + " " + " ");
         }
 
     }
