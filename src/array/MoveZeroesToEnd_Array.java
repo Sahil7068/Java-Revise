@@ -14,10 +14,16 @@ public class MoveZeroesToEnd_Array {
             }
         }
 
-        while (j<n){
-            result[j++] = 0;
-
+        for(int i = 0; i<n; i++){
+            if (a[i]==0){
+                result[j++] = a[i];
+            }
         }
+
+//        while (j<n){
+//            result[j++] = 0;
+//
+//        }
 
         for (int k : result){
             System.out.print(k + " ");

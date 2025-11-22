@@ -3,8 +3,10 @@ import java.util.*;
 
 public class Anagram {
     public static void main(String[] args) {
-        String str = "silent";
-        String str1 = "listen";
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
+        String str1 = sc.nextLine();
+
 
         if (str.length() == str1.length()){
 
